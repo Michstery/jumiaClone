@@ -1479,8 +1479,9 @@ ol {
 -----------------------*/
 
 .partner-logo {
-	background: #303030;
-	padding: 38px 0;
+	/* background: #303030; */
+	background:#191919;
+	padding: 38px 0 0 0;
 }
 
 .logo-carousel .logo-item {
@@ -1503,8 +1504,9 @@ ol {
 -----------------------*/
 
 .footer-section {
-	background: #191919;
-	padding-top: 75px;
+	/* background: #191919; */
+	background: #303030;
+	padding-top: 35px;
 }
 
 .footer-left {
@@ -1519,10 +1521,10 @@ ol {
 	display: inline-block;
 }
 
-.footer-left ul li {
+.footer-left .footer-widget ul li {
 	list-style: none;
 	color: #b2b2b2;
-	font-size: 16px;
+	font-size: 14px;
 	line-height: 30px;
 }
 
@@ -1572,7 +1574,7 @@ ol {
 .footer-widget h5 {
 	color: #ffffff;
 	font-weight: 700;
-	margin-bottom: 26px;
+	margin-bottom: 19px;
 }
 
 .footer-widget ul li {
@@ -1588,7 +1590,7 @@ ol {
 .newslatter-item h5 {
 	color: #ffffff;
 	font-weight: 700;
-	margin-bottom: 30px;
+	margin-bottom: 20px;
 }
 
 .newslatter-item p {
@@ -1648,7 +1650,7 @@ ol {
 .copyright-reserved {
 	border-top: 1px solid #303030;
 	padding: 15px 0;
-	margin-top: 45px;
+	/* margin-top: 45px; */
 }
 
 .copyright-reserved .copyright-text {
