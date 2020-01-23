@@ -650,10 +650,13 @@ ol {
 }
 
 .nav-item {
-	background: #252525;
+	background: #ffffff;
+	color:#4a4a4a;
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
+	box-shadow: 1px 1px 5px #888888;
+	margin: 3px 0;
 }
 
 .nav-item .nav-depart {
@@ -661,8 +664,8 @@ ol {
 }
 
 .nav-item .nav-depart .depart-btn {
-	background: #3b3b3b;
-	color: #ffffff;
+	background: #ffffff;
+	color: #4a4a4a;
 	padding: 14px 84px 14px 18px;
 	cursor: pointer;
 	position: relative;
@@ -737,14 +740,14 @@ ol {
 	color: #e7ab3c;
 }
 
-.nav-item .nav-menu {
+.nav-menu {
 	display: -webkit-inline-box;
 	display: -ms-inline-flexbox;
 	display: inline-flex;
 	position: relative;
 }
 
-.nav-item .nav-menu li {
+.nav-menu li {
 	list-style: none;
 	display: inline-block;
 	margin-left: -5px;
@@ -755,36 +758,36 @@ ol {
 	background: #e7ab3c;
 }
 
-.nav-item .nav-menu li a {
+.nav-menu li a {
 	font-size: 14px;
 	font-weight: 700;
 	display: block;
-	color: #ffffff;
-	border-right: 2px solid #3b3b3b;
+	color: #4a4a4a;
+	/* border-right: 2px solid #3b3b3b; */
 	text-transform: uppercase;
-	padding: 16px 42px 15px;
+	padding: 16px 37px 15px;
 	-webkit-transition: all 0.3s;
 	-o-transition: all 0.3s;
 	transition: all 0.3s;
 }
 
 .nav-item .nav-menu li:hover>a {
-	background: #e7ab3c;
+	/* background: #e7ab3c; */
 }
 
-.nav-item .nav-menu li:hover .dropdown {
+.nav-menu li:hover .dropdown {
 	opacity: 1;
 	visibility: visible;
 	top: 52px;
 }
 
-.nav-item .nav-menu li .dropdown {
+.nav-menu li .dropdown {
 	position: absolute;
 	right: 0;
 	top: 82px;
 	width: 200px;
 	z-index: 99;
-	background: #252525;
+	background: #ffffff;
 	opacity: 0;
 	visibility: hidden;
 	-webkit-transition: all 0.3s;
@@ -792,17 +795,17 @@ ol {
 	transition: all 0.3s;
 }
 
-.nav-item .nav-menu li .dropdown li {
+.nav-menu li .dropdown li {
 	display: block;
 	margin-left: 0;
 }
 
-.nav-item .nav-menu li .dropdown li:hover>a {
+.nav-menu li .dropdown li:hover>a {
 	background: transparent;
 	color: #e7ab3c;
 }
 
-.nav-item .nav-menu li .dropdown li a {
+.nav-menu li .dropdown li a {
 	border-right: 0;
 	padding: 13px 20px 12px 30px;
 	text-transform: capitalize;
@@ -3901,8 +3904,8 @@ ol {
 	.product-item .pi-pic ul li a {
 		padding: 16px 12px 12px 11px;
 	}
-	.nav-item .nav-menu li a {
-		padding: 16px 45px 15px;
+	 .nav-menu li a {
+		padding: 16px 37px 15px;
 	}
 }
 
