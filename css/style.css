@@ -1040,7 +1040,7 @@ ol {
 	padding-right: 65px;
 	padding-left: 65px;
 	padding-top: 0;
-	padding-bottom: 80px;
+	/* padding-bottom: 80px; */
 }
 
 .product-large {
@@ -1132,29 +1132,29 @@ ol {
 }
 
 .product-slider .owl-dots {
-	text-align: center;
-	margin-top: 27px;
+	/* text-align: center;
+	margin-top: 27px; */
 }
 
 .product-slider .owl-dots button {
-	width: 6px;
+	/* width: 6px;
 	height: 6px;
 	background: #D8D9DA;
 	border-radius: 50%;
 	margin-right: 10px;
 	-webkit-transition: all 0.3s;
 	-o-transition: all 0.3s;
-	transition: all 0.3s;
+	transition: all 0.3s; */
 }
 
 .product-slider .owl-dots button:last-child {
-	margin-right: 0;
+	/* margin-right: 0; */
 }
 
 .product-slider .owl-dots button.active {
-	width: 30px;
+	/* width: 30px;
 	background: #252525;
-	border-radius: 50px;
+	border-radius: 50px; */
 }
 
 .product-item {
@@ -4317,6 +4317,10 @@ ol {
 	.benefit-items .single-benefit {
 		padding-left: 15px;
 		padding-right: 15px;
+	}
+	.blue {
+		padding: 0 0 0 86px;
+		font-size: 12px;
 	}
 }
 
