@@ -4322,6 +4322,12 @@ ol {
 		padding: 0 0 0 86px;
 		font-size: 12px;
 	}
+	.green {
+		margin: 0 79px 0 -103px;
+	}
+	.hidden {
+		display:none;
+	}
 }
 
 .block{
